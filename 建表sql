@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `tbl`(
+    name VARCHAR(40) NOT NULL,
+    author VARCHAR(40) NOT NULL,
+    lended VARCHAR(40) NOT NULL,
+    PRIMARY KEY ( runoob_id )
+    )ENGINE=InnoDB DEFAULT CHARSET=utf8;
